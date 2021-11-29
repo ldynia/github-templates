@@ -24,6 +24,6 @@ A clear and concise description of what you expected to happen.
 
 ### Environment
 
-- Operating System: [MacOS | Windows | Ubuntu],
+- Operating System: [MacOS | Windows | Ubuntu]
 - Operating System Version: [10.14 | 11 | 20.04]
 - Python Version [Python 3.7.1]
