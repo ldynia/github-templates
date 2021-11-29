@@ -23,5 +23,6 @@ assignees: ''
 <!--- A clear and concise description of what you expected to happen. -->
 
 ### Environment
+
  - OS: [e.g. MacOS 10.14.3]
  - Python Version [e.g. Python 3.7.1]
