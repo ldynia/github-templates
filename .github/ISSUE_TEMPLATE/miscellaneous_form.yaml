@@ -1,6 +1,5 @@
 name: MiscellaneousV2
 description: Ask a question; Make a request; Get the info;
-labels: ["enhancement"]
 assignees:
   - octocat
 body:
