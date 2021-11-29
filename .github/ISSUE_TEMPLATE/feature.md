@@ -21,4 +21,4 @@ I'd like to have a feature that **[...]**, so I can **[...]**.
 
 <!-- A clear and concise description of any alternative solutions or features you've considered. -->
 
-At the moment I **[...]**
+At the moment, I **[...]**
