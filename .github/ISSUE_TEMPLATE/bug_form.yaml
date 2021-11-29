@@ -41,27 +41,6 @@ body:
       render: shell
 
   - type: dropdown
-    id: os
-    attributes:
-      label: OS
-      multiple: false
-      options:
-        - MacOS
-        - Ubuntu
-        - Windows
-        - Other
-    validations:
-      required: true
-
-  - type: input
-    id: os-version
-    attributes:
-      label: OS version
-      placeholder: "20.04"
-    validations:
-      required: true
-
-  - type: dropdown
     id: python
     attributes:
       label: Python
