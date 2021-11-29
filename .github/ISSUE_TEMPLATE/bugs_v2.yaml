@@ -1,5 +1,6 @@
 name: Bug V2
 description: Report a bug
+title:
 labels: ["bug", "invalid"]
 assignees:
   - octocat
@@ -56,7 +57,7 @@ body:
     id: os-version
     attributes:
       label: OS Version
-      description:
+      description: "OS Version"
       placeholder: 20.04
     validations:
       required: true
