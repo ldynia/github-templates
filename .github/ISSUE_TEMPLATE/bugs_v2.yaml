@@ -57,7 +57,7 @@ body:
     attributes:
       label: OS Version
       description: "OS Version"
-      placeholder: 20.04
+      placeholder: "20.04"
     validations:
       required: true
 
