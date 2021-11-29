@@ -8,19 +8,19 @@ assignees: ''
 
 ### The Bug
 
-<!-- A clear and concise description of what the bug is. -->
+A clear and concise description of what the bug is.
 
 ### Reproduce
 
-<!-- Description of steps to reproduce the bug -->
+Description of steps to reproduce the bug:
 
 1. Step one
 1. Step two
 1. Step n
 
-### Expected behavior
+### Expected behaviour
 
-<!-- A clear and concise description of what you expected to happen. -->
+A clear and concise description of what you expected to happen.
 
 ### Environment
 
