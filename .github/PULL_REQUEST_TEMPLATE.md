@@ -1,6 +1,6 @@
 ### Description
 
-Concise summary of the change(s) that this PR introduces.
+Summary of the change(s) that this PR introduces.
 
 ### Type of Change
 
