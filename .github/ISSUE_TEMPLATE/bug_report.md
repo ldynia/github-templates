@@ -1,12 +1,12 @@
 ---
 name: Bug Report
-about: Create a report to help us improve
+about: ''
 title: ''
 labels: 'bug'
 assignees: ''
 ---
 
-**Describe the bug**
+**The bug**
 <!--- A clear and concise description of what the bug is. -->
 
 
