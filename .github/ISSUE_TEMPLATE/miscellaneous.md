@@ -1,11 +1,11 @@
 ---
 name: Miscellaneous
-about: 'Ask a question; Get the info; Make a request'
+about: 'Ask a question; Make a request; Get the info;'
 title: ''
 labels: ''
 assignees: ''
 ---
 
-### Question/Request
+### Question/Request/Clarification
 
 A clear and concise description of what this question/request is all about. If the issue is a question then please label it with `question` label.
