@@ -1,3 +1,4 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
 name: BugV2
 description: Report a bug
 labels: ["bug", "invalid"]
@@ -39,6 +40,27 @@ body:
       label: Relevant log output
       placeholder: Copy and paste any relevant log output here.
       render: shell
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      multiple: false
+      options:
+        - MacOS
+        - Ubuntu
+        - Windows
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "20.04"
+    validations:
+      required: true
 
   - type: dropdown
     id: python
