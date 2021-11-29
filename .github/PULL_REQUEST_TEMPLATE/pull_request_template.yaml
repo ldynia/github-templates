@@ -1,8 +1,5 @@
 name: New Pull Request
 description: Open a new pull request
-#title: "[Bug]: "
-#labels: ["bug", "triage"]
-
 body:
   - type: input
     id: related_issue
@@ -34,39 +31,3 @@ body:
       description: Brief description of the new feature or bug fix as it will appear in the release notes
     validations:
       required: true
-  
-  
-  - type: input
-    id: related_docs
-    attributes:
-      label: Related Documentation
-      description: Link(s) to product documentation that addresses the changes of this PR. 
-      value: "N/A"
-    validations:
-      required: false 
-  - type: checkboxes
-    id: validity_checks
-    attributes:
-      label: PR Validation
-      description: Before submitting PR for a new connector make sure following is completed
-      options:
-        - label: Followed secure coding standards in http://wso2.com/technical-reports/wso2-secure-engineering-guidelines?
-          required: true
-  - type: checkboxes
-    id: security_checks
-    attributes:
-      label: Security Checks
-      description: Before submitting PR make sure following security checks are followed
-      options:
-        - label: Followed secure coding standards in http://wso2.com/technical-reports/wso2-secure-engineering-guidelines?
-          required: true
-        - label: Confirmed that this PR doesn't commit any keys, passwords, tokens, usernames, or other secrets?
-          required: true
-  - type: textarea
-    id: testEnv
-    attributes:
-      label: Test Environments
-      description: BList all JDK versions, operating systems, databases, and browser/versions on which this feature/fix was tested
-    validations:
-      required: false      
-        
