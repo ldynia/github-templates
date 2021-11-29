@@ -1,4 +1,4 @@
-name: Bug V2
+name: Bug
 description: Report a bug
 labels: ["bug", "invalid"]
 assignees:
@@ -29,7 +29,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
 
   - type: textarea
