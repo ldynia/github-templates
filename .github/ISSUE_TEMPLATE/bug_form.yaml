@@ -26,19 +26,19 @@ body:
       required: true
 
   - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      placeholder: Please copy and paste any relevant log output.
-      render: shell
-
-  - type: textarea
     id: expected-behaviour
     attributes:
       label: Expected behaviour
       placeholder: What should be the outcome of this behaviour? A clear and concise description of what you expected to happen.
     validations:
       required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      placeholder: Please copy and paste any relevant log output.
+      render: shell
 
   - type: dropdown
     id: os
