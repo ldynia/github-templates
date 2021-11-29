@@ -6,14 +6,14 @@ labels: 'enhancement'
 assignees: ''
 ---
 
-### Describe The Problem Leading To Feature Request
+### Problem description
 
 I'm frustrated when **[...]**. Because, **[...]**
 
-### Feature Description
+### Feature description
 
 I'd like to have a feature that **[...]**, so I can **[...]**.
 
-### Describe alternatives you've considered
+### Describe alternatives that you've considered
 
 At the moment, I **[...]**
