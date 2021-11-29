@@ -37,7 +37,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      placeholder: Please copy and paste any relevant log output.
+      placeholder: Copy and paste any relevant log output here.
       render: shell
 
   - type: dropdown
