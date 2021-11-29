@@ -8,4 +8,4 @@ assignees: ''
 
 ### Question/Request
 
-A clear and concise description of what this question/request is all about.
+A clear and concise description of what this question/request is all about. If it's a question then please label this issue with `question` label.
