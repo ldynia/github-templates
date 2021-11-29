@@ -1,6 +1,5 @@
 name: Bug V2
 description: Report a bug
-title:
 labels: ["bug", "invalid"]
 assignees:
   - octocat
