@@ -1,33 +1,21 @@
-name: New Pull Request
-description: Open a new pull request
-body:
-  - type: input
-    id: related_issue
-    attributes:
-      label: Related Issue(s)
-      description: Github issue related to the pull request
-      placeholder: Resolves  
-    validations:
-      required: true
-  - type: input
-    id: related_pr
-    attributes:
-      label: Related PR(s)
-      description: Other PRs related to the pull request
-      value: "N/A"
-    validations:
-      required: false 
-  - type: textarea
-    id: approach
-    attributes:
-      label: Approach/Solution
-      description: Describe how you are implementing the solutions. Include an animated GIF or screenshot if the change affects the UI (email documentation@wso2.com to review all UI text). Include a link to a Markdown file or Google doc if the feature write-up is too long to paste here.
-    validations:
-      required: true
-  - type: textarea
-    id: releaseNote
-    attributes:
-      label: Release Note
-      description: Brief description of the new feature or bug fix as it will appear in the release notes
-    validations:
-      required: true
+### Description
+
+Concise summary of the change(s) that this PR introduces.
+
+### Type of Change
+
+<!-- Select ONLY ONE option -->
+
+- [ ] Bug fix (non-breaking change which fixes an issue).
+- [ ] New feature (non-breaking change which adds functionality).
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected).
+- [ ] Documentation update.
+
+### Checklist
+
+- [ ] I have performed a self-review of my own code.
+- [ ] I have commented my code, particularly in hard-to-understand areas.
+- [ ] I have made corresponding changes to the documentation.
+- [ ] I have added tests that prove my fix is effective or that my feature works.
+- [ ] New and existing unit tests pass with my changes.
+- [ ] My code follows the style guidelines of this project.
