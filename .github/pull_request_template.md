@@ -17,3 +17,7 @@ Concise summary of the change(s) that this PR introduces.
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] New and existing unit tests pass with my changes.
 - [ ] My code follows the style guidelines of this project.
+
+### Reviewr Check list 
+<!-- This needs to be verifiend by a reviewer --> 
+- [ ] PR doesn't contain GPLv2 licenced code.
